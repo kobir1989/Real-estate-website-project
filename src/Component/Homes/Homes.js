@@ -7,7 +7,7 @@ function Homes() {
     <div className='homes__container'>
       {homesData.map((item) => {
         return (
-          <div className='homes__container-card'>
+          <div className='homes__container-card' key={item.id}>
             <div className='homes__container-card-img'>
               <img src={item.imageUrl} alt='home.jpeg' />
             </div>

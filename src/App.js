@@ -4,6 +4,7 @@ import NavManue from './Component/NavManue/NavManue';
 import Feature from './Component/Feature/Feature';
 import Story from './Component/Story/Story';
 import Homes from './Component/Homes/Homes';
+import Galary from './Component/Galary/Galary';
 function App() {
   return (
     <div id='container__main'>
@@ -15,6 +16,7 @@ function App() {
         <Feature />
         <Story />
         <Homes />
+        <Galary />
       </div>
     </div>
   );
