@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Open+Sans:wght@400;500&display=swap');
 
+:root {
+  --deep-orange: #c69963;
+  --white: #ffffff;
+  --gray: #54483a;
+  --deep-navy: #101d2c;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 body {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 62.5%;
 }
