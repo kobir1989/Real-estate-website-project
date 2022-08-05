@@ -1,0 +1,16 @@
+.btn {
+  width: 20rem;
+  padding: 1rem;
+  color: var(--white);
+  background-color: var(--deep-orange);
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btn:hover {
+  background-color: #a08553;
+  transform: translateY(-0.2rem);
+}

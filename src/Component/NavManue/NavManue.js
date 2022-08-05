@@ -24,8 +24,8 @@ function NavManue() {
             <a href='#'>Request Proposal</a>
           </div>
           <div className='nav__manue-buttons'>
-            <button className='nav__manue-btn btn'>Log in </button>
-            <button className='nav__manue-btn btn'>Sign in</button>
+            <button className='nav__manue-btn'>Log in </button>
+            <button className='nav__manue-btn'>Sign in</button>
           </div>
         </div>
       )}
