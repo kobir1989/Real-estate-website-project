@@ -1,0 +1,52 @@
+.homes__container {
+  width: 80%;
+  margin: auto;
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 6rem;
+
+  &-card {
+    justify-self: center;
+    align-self: center;
+    width: 25rem;
+    height: 36rem;
+    position: relative;
+    background-color: var(--deep-bg-color);
+    box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.1);
+
+    &-banner {
+      background-color: var(--deep-navy);
+      width: 80%;
+      height: 3rem;
+      color: var(--white);
+      position: absolute;
+      bottom: 40%;
+      left: 10%;
+    }
+    &-banner h4 {
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 1rem;
+    }
+    &-text {
+      font-size: 1.3rem;
+      margin: 3rem 0;
+      color: var(--gray);
+      display: grid;
+      grid-template-columns: 6.5rem 6.5rem;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 2rem;
+      align-items: center;
+      justify-content: center;
+    }
+    &-btn {
+      text-align: center;
+    }
+  }
+  &-card-img img {
+    width: 25rem;
+    height: 20rem;
+  }
+}

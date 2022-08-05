@@ -1,0 +1,58 @@
+const homesData = [
+  {
+    id: 1,
+    imageUrl: require('../../Assets/house-1.jpeg'),
+    banner: 'Beautiful Familiy House',
+    country: 'USA',
+    rooms: '5 Rooms',
+    size: '325',
+    price: '$1,500,000',
+  },
+  {
+    id: 2,
+    imageUrl: require('../../Assets/house-2.jpeg'),
+    banner: 'Modern Glass Villa',
+    country: 'Canada',
+    rooms: '6 Rooms',
+    size: '450',
+    price: '$2,500,000',
+  },
+  {
+    id: 3,
+    imageUrl: require('../../Assets/house-3.jpeg'),
+    banner: 'Cozy Country House',
+    country: 'UK',
+    rooms: '4 Rooms',
+    size: '250',
+    price: '$800,000',
+  },
+  {
+    id: 4,
+    imageUrl: require('../../Assets/house-4.jpeg'),
+    banner: 'Large Rustical Villa',
+    country: 'Denmark',
+    rooms: '6 Rooms',
+    size: '480',
+    price: '$1,500,000',
+  },
+  {
+    id: 5,
+    imageUrl: require('../../Assets/house-5.jpeg'),
+    banner: 'Majestic Palace House',
+    country: 'Italy',
+    rooms: '18 Rooms',
+    size: '180',
+    price: '$8,700,000',
+  },
+  {
+    id: 6,
+    imageUrl: require('../../Assets/house-6.jpeg'),
+    banner: 'Modern Familiy Apartment',
+    country: 'Germany',
+    rooms: '4 Rooms',
+    size: '4230',
+    price: '$800,000',
+  },
+];
+
+export default homesData;
