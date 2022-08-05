@@ -1,0 +1,24 @@
+.feature__contaioner {
+  margin-top: 8rem;
+
+  &-row-1,
+  &-row-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.text {
+  width: calc(80% / 3);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 5rem;
+}
+.text h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+.text p {
+  color: var(--gray);
+}
