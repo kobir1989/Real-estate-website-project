@@ -1,17 +1,27 @@
 .homes__container {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  padding-top: 10rem;
+  margin-top: 8rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, calc(90% / 3));
   grid-template-rows: 1fr 1fr;
-  grid-gap: 6rem;
-
+  gap: 4rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 1086px) {
+    grid-template-columns: repeat(2, calc(90% / 2));
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  @media screen and (max-width: 726px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
   &-card {
     justify-self: center;
     align-self: center;
-    width: 25rem;
-    height: 36rem;
+    max-width: 25rem;
+    max-height: 36rem;
     position: relative;
     background-color: var(--deep-bg-color);
     box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.1);
@@ -19,10 +29,10 @@
     &-banner {
       background-color: var(--deep-navy);
       width: 80%;
-      height: 3rem;
+      max-height: 3rem;
       color: var(--white);
       position: absolute;
-      bottom: 40%;
+      bottom: 45%;
       left: 10%;
     }
     &-banner h4 {
@@ -47,7 +57,8 @@
     }
   }
   &-card-img img {
-    width: 25rem;
-    height: 20rem;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 }

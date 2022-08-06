@@ -44,8 +44,10 @@ function Header() {
           </div>
         </div>
       </div>
+
       <div className='seals-team'>
         <h4 className='seals-team-heading'>TOP-3 REALTORS</h4>
+
         <div className='seals-team-info'>
           <img src={person1} alt='person.jpeg' />
           <div>

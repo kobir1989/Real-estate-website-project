@@ -1,7 +1,6 @@
 import React from 'react';
 import './Story.scss';
 import Button from '../Layout/Buttton';
-
 import storyImage from '../../Assets/story-1.jpeg';
 import storyImage2 from '../../Assets/story-2.jpeg';
 function Story() {
