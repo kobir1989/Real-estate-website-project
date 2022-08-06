@@ -5,6 +5,7 @@ import Feature from './Component/Feature/Feature';
 import Story from './Component/Story/Story';
 import Homes from './Component/Homes/Homes';
 import Galary from './Component/Galary/Galary';
+import Footer from './Component/Footer/Footer';
 function App() {
   return (
     <div id='container__main'>
@@ -17,6 +18,7 @@ function App() {
         <Story />
         <Homes />
         <Galary />
+        <Footer />
       </div>
     </div>
   );
