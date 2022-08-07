@@ -1,6 +1,7 @@
 import './App.scss';
-import Home from '../src/Pages/Home/Home';
-import Login from './Component/Pages/Login/Login';
+import Home from './Pages/HomePage/Home';
+import Login from './Pages/Login/Login';
+import Singup from './Pages/Singup/Signup';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Singup />} />
         </Routes>
       </Router>
     </>

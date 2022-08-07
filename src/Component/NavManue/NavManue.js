@@ -17,7 +17,9 @@ function NavManue() {
         <div className='nav__manue-slider'>
           <span onClick={closeHandler}>X</span>
           <div className='nav__manue-links'>
-            <a href='#'>Home</a>
+            <Link to='/home' className='router-link'>
+              Home
+            </Link>
             <a href='#'>Contract us</a>
             <a href='#'>About</a>
             <a href='#'>Find your Dream Home</a>
@@ -31,7 +33,9 @@ function NavManue() {
               </Link>
             </button>
             <button className='nav__manue-btn'>
-              {/* <Link to='/'>Sign in</Link> */}
+              <Link to='/signup' className='router-link'>
+                Sign in
+              </Link>
             </button>
           </div>
         </div>

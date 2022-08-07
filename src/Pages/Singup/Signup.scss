@@ -1,0 +1,16 @@
+.col-2 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.checkbox {
+  font-size: 0.8rem;
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  gap: 0.5rem;
+  &-sq {
+    width: 1.5rem;
+    height: 1.2rem;
+  }
+}
