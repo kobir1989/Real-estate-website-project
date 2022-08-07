@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavManue.scss';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
 function NavManue() {
   const [nav, setNav] = useState(true);
   const showNavHandler = () => {
@@ -24,8 +25,14 @@ function NavManue() {
             <a href='#'>Request Proposal</a>
           </div>
           <div className='nav__manue-buttons'>
-            <button className='nav__manue-btn'>Log in </button>
-            <button className='nav__manue-btn'>Sign in</button>
+            <button className='nav__manue-btn'>
+              <Link to='/login' className='router-link'>
+                Login
+              </Link>
+            </button>
+            <button className='nav__manue-btn'>
+              {/* <Link to='/'>Sign in</Link> */}
+            </button>
           </div>
         </div>
       )}
