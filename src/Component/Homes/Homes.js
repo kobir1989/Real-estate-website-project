@@ -2,7 +2,10 @@ import React from 'react';
 import './Homes.scss';
 import homesData from './homesData';
 import Button from '../Layout/Buttton';
+import { useNavigate } from 'react-router-dom';
 function Homes() {
+  const navigate = useNavigate();
+
   return (
     <div className='homes__container'>
       {homesData.map((item) => {
@@ -22,7 +25,12 @@ function Homes() {
               </p>
               <p>{item.price}</p>
             </div>
-            <div className='homes__container-card-btn'>
+            <div
+              className='homes__container-card-btn'
+              onClick={() => {
+                navigate(`houses/${item.id}`);
+              }}
+            >
               <Button>VIEW DETAILS</Button>
             </div>
           </div>
