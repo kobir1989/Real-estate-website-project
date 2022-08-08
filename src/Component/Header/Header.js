@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import { Link } from 'react-router-dom';
 import Button from '../Layout/Buttton';
 import mainLogo from '../../Assets/logo/mainLogo.png';
 import bbcLogo from '../../Assets/logo/logo-bbc.png';
@@ -21,7 +22,9 @@ function Header() {
           <p>your own home</p>
           <h1>The ultimate personal freedom</h1>
           <div className='header__container-hero-btn'>
-            <Button>Vew our properties</Button>
+            <Link to='/homes'>
+              <Button>Vew our properties</Button>
+            </Link>
           </div>
         </div>
         <div>

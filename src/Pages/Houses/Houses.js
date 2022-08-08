@@ -27,7 +27,7 @@ function Houses() {
         </div>
         <div className='products__container-sub-text'>
           <h2 className='products__container-sub-text-bg'>
-            {homesData[id].banner}
+            {homesData[id - 1].banner}
           </h2>
           <h3 className='products__container-sub-text-md'>
             <FcSalesPerformance />
@@ -40,16 +40,16 @@ function Houses() {
             eius qui quos excepturi ab asperiores.
           </p>
           <h3 className='products__container-sub-text-md'>
-            <GoLocation /> {homesData[id].country}
+            <GoLocation /> {homesData[id - 1].country}
           </h3>
           <h3 className='products__container-sub-text-md'>
-            <GiFamilyHouse /> {homesData[id].size} m<sup>2</sup>
+            <GiFamilyHouse /> {homesData[id - 1].size} m<sup>2</sup>
           </h3>
           <h3 className='products__container-sub-text-md'>
-            {homesData[id].rooms}
+            {homesData[id - 1].rooms}
           </h3>
           <h3 className='products__container-sub-text-md'>
-            Price: {homesData[id].price}
+            Price: {homesData[id - 1].price}
           </h3>
           <button className='btn'>Talk to Realtor</button>
         </div>
