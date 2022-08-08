@@ -28,7 +28,7 @@ function Homes() {
             <div
               className='homes__container-card-btn'
               onClick={() => {
-                navigate(`houses/${item.id}`);
+                navigate(`/houses/${item.id}`);
               }}
             >
               <Button>VIEW DETAILS</Button>
