@@ -11,19 +11,13 @@ import Footer from '../../Component/Footer/Footer';
 function Home() {
   return (
     <>
-      <div id='container__main'>
-        <div className='nav__manue-left'>
-          <NavManue />
-        </div>
-        <div className='whole__body'>
-          <Header />
-          <Feature />
-          <Story />
-          <Homes />
-          <Galary />
-          <Footer />
-        </div>
-      </div>
+      <NavManue />
+      <Header />
+      <Feature />
+      <Story />
+      <Homes />
+      <Galary />
+      <Footer />
     </>
   );
 }
