@@ -4,4 +4,4 @@
 - Sass 
 - JavaScript
 
-## [Netlify Link](https://housing-scss.netlify.app/home)
+## [Netlify Link](https://housing-scss.netlify.app)
