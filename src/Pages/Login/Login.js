@@ -8,9 +8,6 @@ import NavManue from '../../Component/NavManue/NavManue';
 function Login() {
   return (
     <div className='form__container'>
-      <div className='form__container-nav'>
-        <NavManue />
-      </div>
       <div className='form__container-sub'>
         <div className='form__container-heading'>
           <h3 className='form__container-text'>Login</h3>

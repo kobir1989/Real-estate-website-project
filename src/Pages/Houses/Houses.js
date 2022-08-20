@@ -11,9 +11,6 @@ function Houses() {
   const { id } = useParams();
   return (
     <div className='products__container'>
-      <div className='products__container-nav'>
-        <NavManue />
-      </div>
       <div className='products__container-sub'>
         <div className='products__container-sub-img'>
           <img

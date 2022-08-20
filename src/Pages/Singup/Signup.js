@@ -7,9 +7,6 @@ import NavManue from '../../Component/NavManue/NavManue';
 function Signup() {
   return (
     <div className='form__container '>
-      <div className='form__container-nav'>
-        <NavManue />
-      </div>
       <div className='form__container-sub sign-up'>
         <div className='form__container-sub'>
           <form>
