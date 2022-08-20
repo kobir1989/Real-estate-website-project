@@ -15,7 +15,6 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Navigate to={'/home'} replace />}></Route>
           <Route path='/home' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/homes' element={<Homes />} />
